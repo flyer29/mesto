@@ -1,0 +1,9 @@
+.popup__error {
+  font-size: 12px;
+  color: #FF0000;
+}
+
+.popup__error:first-of-type {
+  position: relative;
+  top: -24px;
+}
