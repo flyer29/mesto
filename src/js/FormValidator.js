@@ -1,6 +1,4 @@
-'use strict';
-
-class FormValidator {
+export default class FormValidator {
   constructor(element) {
     this.element = element;
     this.button = this.element.querySelector('.popup__button');

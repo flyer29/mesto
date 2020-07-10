@@ -1,6 +1,4 @@
-'use strict';
-
-class UserInfo {
+export default class UserInfo {
   constructor(element, api) {
     this.element = element;
     this.api = api;
