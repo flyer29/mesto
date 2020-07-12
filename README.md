@@ -1,5 +1,5 @@
 # Учебный проект для изучения работы Rest API и Webpack .
-## Версия: v.0.0.1 "my first version".
+## Версия: v.0.0.2 "my second version".
 ### автор: *Андрей Бородин*, e-mail: _flyer29@bk.ru._
 #### ссылка на репозиторий проекта: https://github.com/flyer29/mesto
 #### ссылка на GitHub Pages: https://flyer29.github.io/mesto/
