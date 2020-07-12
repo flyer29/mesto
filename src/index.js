@@ -16,13 +16,7 @@ import FormValidator from "./js/FormValidator.js";
   const imagePopupTemplate = document.querySelector('.popup_type_image');
   const avatatPopupTemplate = document.querySelector('.popup_type_avatar');
   const picture = document.querySelector('.user-info__photo');
-  const isDev = process.env.NODE_ENV === 'development';
-  let reference = 'https://praktikum.tk';
-
-  if(isDev) {
-    reference = 'http://praktikum.tk';
-  };
-  
+  const reference = process.env.NODE_ENV === 'development' ? 'http://praktikum.tk' : 'https://praktikum.tk';
   const config = {
     baseUrl: `${reference}/cohort11`,
     headers: {
