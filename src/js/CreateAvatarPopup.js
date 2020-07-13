@@ -1,6 +1,5 @@
-'use strict';
-
-class CreateAvatarPopup extends Popup {
+import Popup from "./Popup.js";
+export default class CreateAvatarPopup extends Popup {
   constructor(element, picture, validator, user, api) {
     super(element);
     this.picture = picture;

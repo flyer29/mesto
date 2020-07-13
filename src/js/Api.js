@@ -1,6 +1,4 @@
-'use strict';
-
-class Api {
+export default class Api {
   constructor(options) {
     this.options = options;
     this.url = this.options.baseUrl;
@@ -18,10 +16,6 @@ class Api {
     return fetch(`${this.url}/users/me`, {
         headers: this.headers
       })
-      /*              +
-        Можно лучше: можно написать чуть короче:
-        .then(this._getResponseData);
-      */
      .then(this._getResponseData);
   }
 

@@ -1,6 +1,5 @@
-'use strict';
-
-class ImagePopup extends Popup {
+import Popup from "./Popup.js";
+export default class ImagePopup extends Popup {
   constructor(element) {
     super(element);
     this.content = this.element.querySelector('.popup__content_type_image');

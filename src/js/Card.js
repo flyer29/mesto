@@ -1,6 +1,4 @@
-'use strict';
-
-class Card {
+export default class Card {
   constructor(popup, userInfo, api) {
     this.popup = popup;
     this.userInfo = userInfo;
