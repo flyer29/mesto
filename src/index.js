@@ -16,9 +16,9 @@ import FormValidator from "./js/FormValidator.js";
   const imagePopupTemplate = document.querySelector('.popup_type_image');
   const avatatPopupTemplate = document.querySelector('.popup_type_avatar');
   const picture = document.querySelector('.user-info__photo');
-  const reference = process.env.NODE_ENV === 'development' ? 'http://praktikum.tk' : 'https://praktikum.tk';
+  const protocol = process.env.NODE_ENV === 'development' ? 'http' : 'https';
   const config = {
-    baseUrl: `${reference}/cohort11`,
+    baseUrl: `${protocol}://praktikum.tk/cohort11`,
     headers: {
       authorization: "6282d211-b1bd-4fad-af58-e65f4129d6a3",
       "Content-Type": "application/json"
