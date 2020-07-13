@@ -1,6 +1,6 @@
 {
   "name": "mesto",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "project to learn webpack",
   "main": "index.js",
   "scripts": {
